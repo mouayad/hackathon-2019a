@@ -12,6 +12,6 @@ phases:
     commands:
       - mvn package
 artifacts:
-  type: zip
+  type: jar
   files:
     - 'target/user-portal-0.0.1-SNAPSHOT.jar'
