@@ -6,11 +6,11 @@ Full REST API - user-app on localhost:8080
 
 ## Backend Routes
 
-[GET] /users : Returns all users
-[POST] /users : Creates an user 
-[GET] /users/{id} : Returns an user by ID
-[PUT] /users/{id} : Updates an user by ID
-[DELETE] /users/{id} : Deletes an user by ID
+- [GET] /users : Returns all users
+- [POST] /users : Creates an user 
+- [GET] /users/{id} : Returns an user by ID
+- [PUT] /users/{id} : Updates an user by ID
+- [DELETE] /users/{id} : Deletes an user by ID
 
 
 This project uses following versions:
