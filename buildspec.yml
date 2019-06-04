@@ -12,8 +12,8 @@ phases:
     commands:
     - echo "Entered the post-build phase"
 artifacts:
+  name: hackathon-2019a-prod
   base-directory: 'target/'
   discard-paths: yes
   files:
     - '**/user-portal-0.0.1-SNAPSHOT.jar'
-  name: hackathon-2019a-prod
