@@ -16,3 +16,4 @@ artifacts:
   discard-paths: yes
   files:
     - '**/user-portal-0.0.1-SNAPSHOT.jar'
+  name: hackathon-2019a-prod
