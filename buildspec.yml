@@ -12,5 +12,7 @@ phases:
     commands:
     - echo "Entered the post-build phase"
 artifacts:
+  base-directory: 'target/'
+  discard-paths: yes
   files:
-    - target/user-portal-0.0.1-SNAPSHOT.jar
+    - 'target/user-portal-0.0.1-SNAPSHOT.jar'
