@@ -21,8 +21,8 @@ spec:
 {{ else }}
         readinessProbe:
           httpGet:
-            path: /health
-            port: 9080
+            path: /user-portal/users
+            port: 8080
           initialDelaySeconds: 20
 {{ end }}
         resources:
